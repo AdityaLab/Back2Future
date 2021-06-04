@@ -1,10 +1,6 @@
 # Back2Future: Leveraging Backfill Dynamics forImproving Real-time Predictions in Future
 
-Code accompanying NeurIPS 2021 submission.
-
-
-
-**DISCLAIMER**: This code is meant to be used only for review purpose and not be distributed partly or fully for any other research or commercial purpose. All rights reserved by authors and requires explicit permission for usage outside purpose of review.
+Link to paper: `To add`
 
 ## Setup
 
@@ -49,7 +45,7 @@ python train_bseqenc.py -l <current_week> -p <epochs> -c <cuda? yes/no> -m <mini
 
 This will store a trained bseqenc at `saves\<experiment name>_rev_model.pth`
 
-## Fine-tune B2F
+### Fine-tune B2F
 
 Run:
 
