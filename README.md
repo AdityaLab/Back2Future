@@ -14,7 +14,7 @@ Then run the following commands:
 
 ```bash
 conda env create --prefix ./envs/backfill --file environment.yml
-source activate ./envs/epifnp
+source activate ./envs/backfill
 ```
 
 ## Directory structure
@@ -56,7 +56,7 @@ Run:
 ```bash
 python train_b2f.py -l <current_week> -e <epochs> -a <weeks ahead> -c <cuda? yes/no> -n <experiment name>
 ```
-This will provide predictions in a dictionary at `saves\<experiment name>_pred.pkl` in form of a dictionaly like:
+This will provide predictions in a dictionary at `saves\<experiment name>_pred.pkl` in form of a dictionary like:
 
 ```python
 {'Expt name': 'week_40_1',
