@@ -1,0 +1,33 @@
+channels:
+  - pytorch
+  - dglteam
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python>=3.6
+  - cudatoolkit=10.2
+  - pytorch>=1.8
+  - torchvision
+  - torchaudio
+  - dgl-cuda10.2
+  - tslearn
+  - numpy
+  - scipy
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - plotly
+  - seaborn
+  - tqdm
+  - networkx
+  - pip
+  - pip:
+    - covidcast
+    - chart_studio
+# For development
+  - ipykernel
+  - jupyter
+  - black
+  - pylint
+  - flake8
