@@ -1,6 +1,6 @@
 # Back2Future: Leveraging Backfill Dynamics forImproving Real-time Predictions in Future
 
-Link to paper: `To add`
+Link to paper: https://arxiv.org/abs/2106.04420
 
 ## Setup
 
